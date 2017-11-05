@@ -1,0 +1,23 @@
+Дополнение скрипта на freebitco.in
+
+1. После ввода капчи (появляется всплывающее синее окошко на котором есть кнопка закрытия) и нужно её нажать:
+    <a class="close-reveal-modal">×</a>
+
+2. При выподении google капчти (ReCaptcha2) появляется следующий код, где указаны цифры выигрыша:
+    <div id="free_play_result" class="center free_play_result_style free_play_result_success" style="display: block;">
+        <div class="bold center">
+            You win
+            <span id="winnings">0.00000308</span>
+            BTC,
+            <a class="lottery_link" href="#">
+            <span id="fp_lottery_tickets_won">2</span>
+            free lottery tickets
+            </a>
+            and
+            <a class="rewards_link" href="#">
+            <span id="fp_reward_points_won">104</span>
+            reward points
+            </a>
+            !
+        </div>
+    </div>
